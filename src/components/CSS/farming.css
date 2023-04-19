@@ -1,0 +1,98 @@
+.heading h1 {
+    font-size: 4.5rem;
+    text-align: center;
+}
+.farming {
+    background-color: beige;
+    padding: 80px 20px;
+}
+
+.boxxx {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 10px 20px 20px 35px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* background-size: cover;
+     */
+    /* background-image: cover; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay p {
+    color: #171717;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.overlay button {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.overlay button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s ease-in-out;
+    text-decoration: none;
+}
+.box button a {
+    text-decoration: none;
+    /* background-color: #fff; */
+    /* color: black; */
+}
+.btn {
+    padding: 1rem;
+}
+.xyz {
+    text-align: center;
+}
+
+.btn a button {
+    padding: 1rem 1rem;
+    /* font-size: 12px; */
+    cursor: pointer;
+    background-color: rgb(240, 141, 20);
+    font-size: 20px;
+}
+.btn a button:hover {
+    background-color: #007a0c;
+    box-shadow: 1px 1px 1px black;
+    transition: 0.3sec;
+}

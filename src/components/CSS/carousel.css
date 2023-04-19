@@ -1,0 +1,36 @@
+.carousel-item {
+    height: 88vh;
+}
+
+.carousel-item img {
+    height: 88vh;
+}
+
+.carousel-caption {
+    font-color: purple;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 0);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+.carousel-caption h5 {
+    color: whitesmoke;
+    font-size: 30px;
+
+    display: inline;
+    padding: 0 4px;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 48vh;
+    }
+
+    .carousel-item img {
+        height: 48vh;
+    }
+}
